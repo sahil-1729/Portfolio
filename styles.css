@@ -1,8 +1,11 @@
 body {
   background-color: #09090b;
   color: wheat;
-  padding-left: 30%;
-  padding-right: 30%;
+  /* padding-left: 30%;
+  padding-right: 30%; */
+  padding-left: 10%;
+  padding-right: 10%;
+
   padding-top: 8em;
   padding-bottom: 8em;
 
@@ -51,8 +54,12 @@ body {
   justify-content: space-between;
   */
 
-  display: grid;
-  grid-template-columns: auto auto auto;
+  /* display: grid;
+  grid-template-columns: auto auto auto; */
+
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 
   gap: 2em;
 
@@ -119,3 +126,24 @@ a {
   align-items: center;
   gap: 2em;
 }
+
+.about {
+  /* padding-top : 1em; */
+}
+
+.about h1 {
+  margin: 0;
+  padding-left: 0.75em;
+}
+.about li{
+  margin: 1em 0;
+  font-size: 1.5em;
+}
+
+@media (min-width: 1024px) {
+  body {
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+}
+
