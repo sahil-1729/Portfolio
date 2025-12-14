@@ -76,7 +76,7 @@ body {
   align-items: center;
   gap: 1em;
 }
-.personal-details-content svg {
+svg {
   background-color: #27272a;
   border-radius: 25%;
   padding: 5px;
@@ -135,9 +135,40 @@ a {
   margin: 0;
   padding-left: 0.75em;
 }
-.about li{
+.about li {
   margin: 1em 0;
-  font-size: 1.5em;
+  font-size: 1.25em;
+}
+
+.experience{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.experience h3 {
+  padding-left: 1em;
+  margin: 0;
+  /* margin-top:1em; */
+}
+
+.experience h1 {
+  padding-left: 1em;
+  margin: 0;
+}
+
+.experience div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+
+  padding: 0 0 0 1em;
+}
+
+li {
+  margin: 0 0 1em 0;
+  font-size: 1.25em;
 }
 
 @media (min-width: 1024px) {
@@ -146,4 +177,3 @@ a {
     padding-right: 25%;
   }
 }
-
