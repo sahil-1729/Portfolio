@@ -1,0 +1,9 @@
+h1{
+    color: orange;
+}
+
+
+body {
+  background: repeating-conic-gradient(#000 0 25%, #fff 0 50%);
+  background-size: 50px 50px;
+}
