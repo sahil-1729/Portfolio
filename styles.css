@@ -45,9 +45,15 @@ body {
 }
 
 .personal-details {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
+  */
+
+  display: grid;
+  grid-template-columns: auto auto auto;
+
   gap: 2em;
 
   border-style: solid;
@@ -67,4 +73,49 @@ body {
   background-color: #27272a;
   border-radius: 25%;
   padding: 5px;
+}
+
+.add-border {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #1c1c1f;
+}
+
+.socials {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+
+  padding: 1em;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+a {
+  color: wheat;
+  text-decoration: none;
+}
+
+.socials img {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #3c4042;
+  border-radius: 25%;
+}
+
+.socials-section-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+
+  padding: 1em;
+}
+
+.socials-section-content div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2em;
 }
